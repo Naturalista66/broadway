@@ -3,7 +3,7 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-.header {
+.header, h3.seperator {
   background-image: url("../images/the-flatiron-building.png");
   color: white;
 }
@@ -13,6 +13,24 @@ body {
   font-weight: bold;
 }
 
-.header p {
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+h3 ~ p {
+  font-size: 14px;
+}
+
+/* anchors are white and 18 pixels on this page */
+a {
   font-size: 18px;
+  color: white;
+}
+
+.footer {
+  font-size: 11px;
+  text-align: left;
+  color: white;
+  background-color: dimgray;
 }
